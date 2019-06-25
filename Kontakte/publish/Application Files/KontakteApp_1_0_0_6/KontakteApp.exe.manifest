@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KontakteApp.exe" version="1.0.0.6" publicKeyToken="d8372ed2b7877984" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KontakteApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="KontakteApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KontakteApp.exe" size="152984">
+      <assemblyIdentity name="KontakteApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZyMHN/vjzT898zPH5i3hFX4m32Ibssl7EKpkLynDdHM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="KontakteApp.exe.config" size="1119">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+wb9exsorYo+ApwnXOu1CSIuKWIiaYue7G3Mxx4UH60=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GAG\erone" issuerKeyHash="c3fc3f909a9f31a071587102a32eafc0828fc7b8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>C2i0IeqskljPQ+uK6Kt+Bl2Ss6HuROuZ/0wrQ8ATROg=</DigestValue></Reference></SignedInfo><SignatureValue>rrFE1cwMPk0wowlaufuTwec43r3ZgFOYPrGvfuJPhhZHuJFkxnTX3pmIudHeU94t36GV0ymKat8EMoDyCtsdmqwCgacqY/4Oh0HPJuEorJCqlODJmgX+A4OUxqi8uUt209/Ev1XsSIUPnkP3p4f1Pt6SiLpiXgWhOhjD2oNP9kQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>suIygUXbzXVWYaHCXYpMsaZ68yAjnkaH1ECARB3bEGXF1+PM1uxHOyNojfTaGq93B5DovPSTDSc3KsEMNaj8LTvgsnxGrHUeLV4JU0hvfyahXlO9jOlU9TUptn22NlJnvkG5FgNRDYA8UK/afie/H9nO2qxQXW1twltVPCgB6zE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e84413c0432b4cff99eb44eea1b3925d067eabe88aeb43cf5892acea21b4680b" Description="" Url=""><as:assemblyIdentity name="KontakteApp.exe" version="1.0.0.6" publicKeyToken="d8372ed2b7877984" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GAG\erone</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>e+jruHWLogeECGKtxvI2Ovwlv2TFw9G/JiNdgeZoYNk=</DigestValue></Reference></SignedInfo><SignatureValue>OXBerWB8VJP4KtcIuOnnhwUGD6dx0smduJh0xz4yTvGSH9piPGsBJiXIXLJiapmrhdSsXLFv8A0Llw0m34aSsI69r3Nz0OrmE+vueAxO7tq4BLtjDLCEGKd15NV4b4Ft6BHLX7DmEKMTnOLWd24ysqjIXqUcQMiAAECF/nn9foY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>suIygUXbzXVWYaHCXYpMsaZ68yAjnkaH1ECARB3bEGXF1+PM1uxHOyNojfTaGq93B5DovPSTDSc3KsEMNaj8LTvgsnxGrHUeLV4JU0hvfyahXlO9jOlU9TUptn22NlJnvkG5FgNRDYA8UK/afie/H9nO2qxQXW1twltVPCgB6zE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQIZf/Kd9TWoVADH+S43pV/zANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIARwBBAEcAXABlAHIAbwBuAGUwHhcNMTkwMzA1MTUyMDAzWhcNMjAwMzA0MjEyMDAzWjAdMRswGQYDVQQDHhIARwBBAEcAXABlAHIAbwBuAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALLiMoFF2811VmGhwl2KTLGmevMgI55Gh9RAgEQd2xBlxdfjzNbsRzsjaI302hqvdweQ6Lz0kw0nNyrBDDWo/C074LJ8Rqx1Hi1eCVNIb38moV5TvYzpVPU1KbZ9tjZSZ75BuRYDUQ2APFCv2n4nvx/ZztqsUF1tbcJbVTwoAesxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAYjELOE1jYbwRhyrvHCOpQOGgKZcJv6LT9TmZoFbIAYoLt2hc8657HR6m3ioRkPFuHw6uBwMjcSav6b7k18KwQmUnzYO8oLrEA5xX4kmgx19Xl2tulVHlCV8vdzX3BGj9oOYI4DnC2Fe8NqKy2muPisUdPlzKxfa5HAhNk+h19Z0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
