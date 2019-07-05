@@ -13,6 +13,7 @@ namespace KontakteApp
         private void FormGrid_Load(object sender, EventArgs e)
         {
             this.personenTableAdapter.Fill(this.kontakteDBDataSet.Personen);
+            this.personenDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
 
         private void personenBindingNavigatorSaveItem_Click(object sender, EventArgs e)

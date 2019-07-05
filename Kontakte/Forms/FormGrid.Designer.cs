@@ -458,7 +458,6 @@
             this.kundeCheckBox.Name = "kundeCheckBox";
             this.kundeCheckBox.Size = new System.Drawing.Size(200, 24);
             this.kundeCheckBox.TabIndex = 16;
-            this.kundeCheckBox.Text = "checkBox1";
             this.kundeCheckBox.UseVisualStyleBackColor = true;
             // 
             // anrufDateTimePicker
@@ -469,7 +468,7 @@
             this.anrufDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.anrufDateTimePicker.TabIndex = 18;
             // 
-            // Form2
+            // FormGrid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -497,7 +496,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(930, 424);
             this.MinimumSize = new System.Drawing.Size(930, 424);
-            this.Name = "Form2";
+            this.Name = "FormGrid";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Papierfabrik Objekthausen - Kontakte";
             this.Load += new System.EventHandler(this.FormGrid_Load);
